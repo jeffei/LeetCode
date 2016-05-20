@@ -20,4 +20,4 @@ string longestPalidrome(string s){
 		}
 	}
 	return "";
-}
+}//O(N*N*N)
