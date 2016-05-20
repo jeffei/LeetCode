@@ -1,6 +1,6 @@
 int Strstr(const string& src,const string& pattern){
-	int m=src.size();
-	int n=src.size();
+	const int m=src.size();
+	const int n=src.size();
 	for(int i=0;i<=m-n;i++){
 	int j=0;
 		for(;j<n;j++){
