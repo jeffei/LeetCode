@@ -12,8 +12,10 @@ string longestPalidromeDP(const string& src){
 		{ if(src[i]==src[i+1])
 			{
 				L[i][i+1]=true;
-				maxLen=2;
-				startPos=i;
+				if(maxLen<len){
+					maxLen=2;
+					startPos=i;
+				}
 			}
 		}	
 	for(int len=3;len<=m;len++){
