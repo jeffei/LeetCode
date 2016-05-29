@@ -19,3 +19,10 @@ vector<int> GuiBin(vector<int>& vec,int left,int right){
 	vector<int> ret=MergeSort(vec1,vec2);
 	return ret;
 }
+
+vector<int> GuiBin(vector<int>& vec){
+	vector<int> ret;
+	if(!vec.empty())
+		ret=GuiBin(vec,0,vec.size()-1);
+	return ret;
+}
