@@ -1,3 +1,1 @@
-# LeetCode
-## some summary
-## modify the folder name
+# c++ code 
